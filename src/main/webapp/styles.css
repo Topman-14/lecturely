@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 9, 2023, 8:42:51 PM
+    Author     : TOPE
+*/
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #ffffff;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 38px ), repeating-linear-gradient( #f8c08355, #f8c083 );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.toast{
+    position: fixed;
+    top: 10px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.error{
+    border-bottom: 2px solid #f33
+}
+.success{
+    border-bottom: 2px solid #3f3
+}
+.load{
+    border-bottom: 2px solid #777
+}
+
+.login-container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: none;
+    background: #ffffbb;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.form-group input:focus{
+    outline: none;
+    border-bottom: 2px solid #f33;
+}
+.form-group input[type="submit"]:hover{
+    background-color: #009966;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    transition: 0.25s;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+body>img{
+    height: 40px;
+}
