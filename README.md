@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/Topman-14/lecturely/assets/98329531/166dd3f8-fba8-419e-95e8-4ff381a5af32" alt="Lecturely logo"  />
+   <img src="https://github.com/Topman-14/lecturely/assets/98329531/d91ce51d-2e71-4428-8cdd-feb3b67aec22" alt="Lecturely logo"  />
 </p>
 
 # Lecturely: A Lecturer Management System
